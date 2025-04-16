@@ -3,7 +3,7 @@ const { HttpsProxyAgent } = require('https-proxy-agent');
 const fs = require('fs');
 
 // 配置代理
-const proxy = 'http://user-sub.songsu-type-dc:wp123456@sg.haiwai-ip.com:1464'; // 请替换为你的代理地址
+const proxy = ' '; // 请替换为你的代理地址
 const agent = new HttpsProxyAgent(proxy);
 
 // 读取地址文件
